@@ -1,2 +1,2 @@
 # PETdemo
-Maximum Intensity Projection (MIP) image using PET data.
+Maximum Intensity Projection (MIP) image using MATLAB and PET/CT imaging data.
