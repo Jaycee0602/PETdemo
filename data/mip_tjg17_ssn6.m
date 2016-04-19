@@ -104,7 +104,11 @@ fprintf('\nSaving output as RAW file...')
 fileID = fopen(output_filename,'w');
 fwrite(fileID,out,'float32');
 fclose(fileID);
-fprintf('done.\n\n')
+fprintf('done.')
+
+%% Exit MATLAB
+fprintf('\n\nExiting MATLAB Now.\n\n')
+quit()
 
 end
 
